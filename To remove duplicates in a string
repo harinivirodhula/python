@@ -1,0 +1,10 @@
+'''
+If your task is to remove duplicate characters of a string while preserving the order of 1st occurances and return the modified string
+'''
+
+s=input()
+l=""
+for i in s:
+   if i not in l:
+      l+=i
+print(l)
