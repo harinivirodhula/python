@@ -1,0 +1,13 @@
+'''
+Our task is to check the string is palindrome or not
+Palindrome means if we reverse a string, the reversed string is equal to the actual string
+'''
+
+s = input().split()
+i="".join(s)
+v= l.lower(s)
+rev=v[::-1]
+if (v==rev):
+   print("True")
+else:
+   print(""False)
