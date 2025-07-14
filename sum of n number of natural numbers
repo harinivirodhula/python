@@ -1,0 +1,7 @@
+#To perform sum operation of n natural numbers
+
+n = int(input("enter how man numbers you want to perform sum operation: "))
+sum_n=0
+for i in range(n+1):
+    sum_n = i+sum_n  
+print(sum_n)
