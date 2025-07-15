@@ -1,0 +1,6 @@
+n = int(input("Enter a value: "))
+sum_e = 0
+for i in range(n+1):
+    if(i%2==0):
+      sum_e = i+sum_e
+print("Sum of n even numbers: ",sum_e)
