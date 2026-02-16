@@ -1,0 +1,8 @@
+#To count how many numbers are divisible by both 2 & 3 from given array
+
+arr= [24,12,9,8,6,15,10]
+count=0
+for i in arr:
+    if i%2==0 and i%3==0:
+        count += 1
+print(count)
