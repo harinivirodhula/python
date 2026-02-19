@@ -1,0 +1,14 @@
+# To print the number is Prime or not
+
+n=int(input("Enter n value: "))
+i=2
+f=1
+while i<n:
+    if n%i==0:
+        f=0
+        break
+    i+=1
+if f==1:
+    print("It is Prime number")
+else:
+    print("It is not a Prime number")
